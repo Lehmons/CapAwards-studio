@@ -1,1 +1,1 @@
-# CapAwards-studio
+# capawards-studio
