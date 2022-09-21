@@ -4,6 +4,11 @@ export default {
   type: "object",
   fields: [
     {
+      title: "Line Breaker",
+      name: "lineBreaker",
+      type: "boolean",
+    },
+    {
       title: "Paragraph",
       name: "paragraph",
       type: "headingOneTwoThreeNormalSmall",
