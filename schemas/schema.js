@@ -11,6 +11,7 @@ import Menu from "./documents/menu";
 import Page from "./documents/page";
 import Footer from "./documents/footer";
 import Home from "./documents/home";
+import Faq from "./documents/faq";
 
 //objects
 import MenuItem from "./objects/menuItem";
@@ -18,6 +19,9 @@ import ImageBlock from "./objects/imageBlock";
 import ImageTextBlock from "./objects/imageTextBlock";
 import FooterLink from "./objects/footerLink";
 import TextBlock from "./objects/textBlock";
+import FaqBlock from "./objects/faqBlock";
+import LinkedPage from "./objects/linkedPage";
+import NavShimmer from "./objects/navShimmer";
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   // We name our schema
@@ -26,6 +30,8 @@ export default createSchema({
   // to the ones provided by any plugins that are installed
   types: schemaTypes.concat([
     /* Your types here! */
+    Faq,
+    NavShimmer,
     Menu,
     MenuItem,
     Home,
@@ -35,6 +41,8 @@ export default createSchema({
     ImageTextBlock,
     FooterLink,
     TextBlock,
+    FaqBlock,
+    LinkedPage,
     HeadingOneTwoThreeNormalSmall,
   ]),
 });

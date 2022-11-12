@@ -24,8 +24,7 @@ export default {
     {
       name: "linkedPage",
       title: "Linked Page",
-      type: "reference",
-      to: [{ type: "page" }],
+      type: "linkedPage",
     },
   ],
   preview: {

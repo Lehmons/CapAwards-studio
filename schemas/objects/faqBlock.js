@@ -1,6 +1,6 @@
 export default {
-  title: "Text Block",
-  name: "textBlock",
+  title: "FAQ Block",
+  name: "faqBlock",
   type: "object",
   fields: [
     {
@@ -12,11 +12,6 @@ export default {
       title: "Paragraph",
       name: "paragraph",
       type: "headingOneTwoThreeNormalSmall",
-    },
-    {
-      name: "linkedPage",
-      title: "Linked Page",
-      type: "linkedPage",
     },
   ],
   preview: {

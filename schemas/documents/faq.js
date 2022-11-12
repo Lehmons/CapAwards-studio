@@ -1,7 +1,7 @@
 export default {
   type: "document",
-  name: "home",
-  title: "Home",
+  name: "faq",
+  title: "Faq",
   fields: [
     {
       title: "Title",
@@ -9,10 +9,9 @@ export default {
       type: "string",
     },
     {
-      title: "Blocks",
-      name: "blocks",
-      type: "array",
-      of: [{ type: "imageBlock" }],
+      title: "FAQ Block",
+      name: "faqBlock",
+      type: "faqBlock",
     },
   ],
 };
