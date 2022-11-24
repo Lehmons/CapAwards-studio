@@ -13,6 +13,11 @@ export default {
         },
       ],
     },
+    {
+      title: "Shimmer",
+      name: "shimmer",
+      type: "imageBlock",
+    },
   ],
   preview: {
     prepare({}) {

@@ -12,6 +12,7 @@ import Page from "./documents/page";
 import Footer from "./documents/footer";
 import Home from "./documents/home";
 import Faq from "./documents/faq";
+import News from "./documents/news";
 
 //objects
 import MenuItem from "./objects/menuItem";
@@ -31,6 +32,7 @@ export default createSchema({
   types: schemaTypes.concat([
     /* Your types here! */
     Faq,
+    News,
     NavShimmer,
     Menu,
     MenuItem,

@@ -4,11 +4,6 @@ export default {
   title: "Image Block",
   fields: [
     {
-      title: "Line Breaker",
-      name: "lineBreaker",
-      type: "boolean",
-    },
-    {
       title: "Image",
       name: "image",
       type: "image",
