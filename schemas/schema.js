@@ -6,6 +6,9 @@ import schemaTypes from "all:part:@sanity/base/schema-type";
 
 //blocks
 import HeadingOneTwoThreeNormalSmall from "./blocks/headingOneTwoThreeNormalSmall";
+import Normal from "./blocks/normal";
+import Simple from "./blocks/simple";
+
 //documents
 import Menu from "./documents/menu";
 import Page from "./documents/page";
@@ -13,16 +16,19 @@ import Footer from "./documents/footer";
 import Home from "./documents/home";
 import Faq from "./documents/faq";
 import News from "./documents/news";
+import StaticPage from "./documents/staticPage";
 
 //objects
-import MenuItem from "./objects/menuItem";
 import ImageBlock from "./objects/imageBlock";
 import ImageTextBlock from "./objects/imageTextBlock";
 import FooterLink from "./objects/footerLink";
 import TextBlock from "./objects/textBlock";
-import FaqBlock from "./objects/faqBlock";
+import BlueTextBlock from "./objects/blueTextBlock";
+import SilverTextBlock from "./objects/silverTextBlock";
 import LinkedPage from "./objects/linkedPage";
 import NavShimmer from "./objects/navShimmer";
+import Accordion from "./objects/accordion";
+
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   // We name our schema
@@ -32,10 +38,10 @@ export default createSchema({
   types: schemaTypes.concat([
     /* Your types here! */
     Faq,
+    Accordion,
     News,
     NavShimmer,
     Menu,
-    MenuItem,
     Home,
     Page,
     Footer,
@@ -43,8 +49,12 @@ export default createSchema({
     ImageTextBlock,
     FooterLink,
     TextBlock,
-    FaqBlock,
+    BlueTextBlock,
+    SilverTextBlock,
     LinkedPage,
     HeadingOneTwoThreeNormalSmall,
+    Normal,
+    Simple,
+    StaticPage,
   ]),
 });

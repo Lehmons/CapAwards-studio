@@ -9,7 +9,7 @@ export default {
       title: "Menu",
       of: [
         {
-          type: "menuItem",
+          type: "linkedPage",
         },
       ],
     },

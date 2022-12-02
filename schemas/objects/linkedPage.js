@@ -1,10 +1,11 @@
+import documentTypes from "./documentTypes";
+
 export default {
   title: "Linked Page",
   type: "object",
   name: "linkedPage",
   fields: [
     {
-      // string (link title)
       title: "Link title",
       name: "linkTitle",
       type: "string",
@@ -13,17 +14,19 @@ export default {
       name: "page",
       title: "Page",
       type: "reference",
-      to: [{ type: "page" }],
+      to: documentTypes,
       validation: (Rule) => Rule.required(),
     },
   ],
   preview: {
     select: {
       title: "page.title",
+      linkTitle: "linkTitle",
     },
-    prepare({ title }) {
+    prepare({ title, linkTitle }) {
+      const fallback = linkTitle || "No title defined";
       return {
-        title: title ? title : "No title defined",
+        title: title ? title : fallback,
       };
     },
   },

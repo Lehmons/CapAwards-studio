@@ -1,8 +1,13 @@
 export default {
-  title: "FAQ Block",
-  name: "faqBlock",
+  title: "Accordion",
+  name: "accordion",
   type: "object",
   fields: [
+    {
+      title: "Title",
+      name: "title",
+      type: "string",
+    },
     {
       title: "Paragraph",
       name: "paragraph",
@@ -11,7 +16,7 @@ export default {
   ],
   preview: {
     select: {
-      title: "paragraph",
+      title: "title",
     },
   },
 };

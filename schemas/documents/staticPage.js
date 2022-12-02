@@ -1,17 +1,12 @@
 export default {
+  title: "Static Page",
+  name: "staticPage",
   type: "document",
-  name: "faq",
-  title: "Faq",
   fields: [
     {
       title: "Title",
       name: "title",
       type: "string",
-    },
-    {
-      title: "Paragraph",
-      name: "paragraph",
-      type: "simple",
     },
     {
       title: "Slug",
@@ -23,12 +18,6 @@ export default {
         slugify: (input) =>
           `/${input.toLowerCase().replace(/\s+/g, "-").slice(0, 200)}`,
       },
-    },
-    {
-      title: "FAQs",
-      name: "faqs",
-      type: "array",
-      of: [{ type: "accordion" }],
     },
   ],
 };

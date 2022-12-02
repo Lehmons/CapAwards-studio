@@ -24,7 +24,13 @@ export default {
       title: "Blocks",
       name: "blocks",
       type: "array",
-      of: [{ type: "imageBlock" }, { type: "textBlock" }, {type: "imageTextBlock"}],
+      of: [
+        { type: "imageBlock" },
+        { type: "textBlock" },
+        { type: "blueTextBlock" },
+        { type: "silverTextBlock" },
+        { type: "imageTextBlock" },
+      ],
     },
   ],
   preview: {
