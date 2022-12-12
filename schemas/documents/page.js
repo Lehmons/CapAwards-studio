@@ -30,6 +30,7 @@ export default {
         { type: "blueTextBlock" },
         { type: "silverTextBlock" },
         { type: "imageTextBlock" },
+        { type: "imageTextBlockBlue" },
       ],
     },
   ],

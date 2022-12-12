@@ -21,6 +21,7 @@ import StaticPage from "./documents/staticPage";
 //objects
 import ImageBlock from "./objects/imageBlock";
 import ImageTextBlock from "./objects/imageTextBlock";
+import ImageTextBlockBlue from "./objects/imageTextBlockBlue";
 import FooterLink from "./objects/footerLink";
 import TextBlock from "./objects/textBlock";
 import BlueTextBlock from "./objects/blueTextBlock";
@@ -47,6 +48,7 @@ export default createSchema({
     Footer,
     ImageBlock,
     ImageTextBlock,
+    ImageTextBlockBlue,
     FooterLink,
     TextBlock,
     BlueTextBlock,
