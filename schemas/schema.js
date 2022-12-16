@@ -24,6 +24,8 @@ import ImageTextBlock from "./objects/imageTextBlock";
 import ImageTextBlockBlue from "./objects/imageTextBlockBlue";
 import FooterLink from "./objects/footerLink";
 import TextBlock from "./objects/textBlock";
+import QuoteBlock from "./objects/quoteBlock";
+import Quotes from "./objects/quotes";
 import BlueTextBlock from "./objects/blueTextBlock";
 import SilverTextBlock from "./objects/silverTextBlock";
 import LinkedPage from "./objects/linkedPage";
@@ -51,6 +53,8 @@ export default createSchema({
     ImageTextBlockBlue,
     FooterLink,
     TextBlock,
+    QuoteBlock,
+    Quotes,
     BlueTextBlock,
     SilverTextBlock,
     LinkedPage,
