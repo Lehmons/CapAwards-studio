@@ -37,4 +37,11 @@ export default {
       validation: (Rule) => Rule.required().min(1),
     },
   ],
+  preview: {
+    prepare({ title }) {
+      return {
+        title: title ? title : "General",
+      };
+    },
+  },
 };
