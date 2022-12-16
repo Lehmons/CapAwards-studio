@@ -11,7 +11,7 @@ export default {
     {
       title: "Quote",
       name: "quote",
-      type: "headingOneTwoThreeNormalSmall",
+      type: "simple",
     },
     {
       title: "Attribution",
