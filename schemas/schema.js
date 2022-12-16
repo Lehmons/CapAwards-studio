@@ -14,6 +14,7 @@ import Menu from "./documents/menu";
 import Page from "./documents/page";
 import Footer from "./documents/footer";
 import Home from "./documents/home";
+import General from "./documents/general";
 import Faq from "./documents/faq";
 import News from "./documents/news";
 import StaticPage from "./documents/staticPage";
@@ -47,6 +48,7 @@ export default createSchema({
     NavShimmer,
     Menu,
     Home,
+    General,
     Page,
     Footer,
     ImageBlock,
