@@ -27,7 +27,7 @@ export default {
       title: "Quotes",
       name: "quotes",
       type: "array",
-      of: [{ type: "quotes" }],
+      of: [{ type: "generalQuotes" }],
     },
     {
       title: "Social Media Links",

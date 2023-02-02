@@ -33,6 +33,8 @@ import SilverTextBlock from "./objects/silverTextBlock";
 import LinkedPage from "./objects/linkedPage";
 import NavShimmer from "./objects/navShimmer";
 import Accordion from "./objects/accordion";
+import GeneralQuotes from "./objects/generalQuotes";
+import GeneralQuoteBlock from "./objects/generalQuoteBlock";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -42,6 +44,8 @@ export default createSchema({
   // to the ones provided by any plugins that are installed
   types: schemaTypes.concat([
     /* Your types here! */
+    GeneralQuotes,
+    GeneralQuoteBlock,
     Faq,
     Accordion,
     News,
