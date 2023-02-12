@@ -31,6 +31,7 @@ export default {
         { type: "silverTextBlock" },
         { type: "imageTextBlock" },
         { type: "imageTextBlockBlue" },
+        { type: "quotes" },
       ],
     },
   ],

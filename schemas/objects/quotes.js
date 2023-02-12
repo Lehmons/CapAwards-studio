@@ -14,5 +14,10 @@ export default {
     select: {
       title: "quotes",
     },
+    prepare({ title }) {
+      return {
+        title: title ? title : "Quotes",
+      };
+    },
   },
 };
