@@ -24,17 +24,9 @@ export default {
       type: "simple",
     },
     {
-      title: "Quotes",
+      title: "Mobile Menu Quotes",
       name: "quotes",
-      type: "array",
-      of: [{ type: "generalQuotes" }],
-    },
-    {
-      title: "Social Media Links",
-      name: "socialMediaLinks",
-      type: "array",
-      of: [{ type: "socialMedia" }],
-      validation: (Rule) => Rule.required().min(1),
+      type: "generalQuotes",
     },
   ],
   preview: {
