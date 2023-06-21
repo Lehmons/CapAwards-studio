@@ -36,6 +36,18 @@ export default {
       type: "array",
       of: [{ type: "imageBlock" }],
     },
+    {
+      title: "Manuscript",
+      name: "manuscript",
+      type: "array",
+      of: [{ type: "manuscript" }],
+    },
+    {
+      title: "Video Block",
+      name: "videoBlock",
+      type: "array",
+      of: [{ type: "videoBlock" }],
+    },
   ],
   preview: {
     select: {

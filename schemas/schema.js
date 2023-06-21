@@ -32,8 +32,10 @@ import SilverTextBlock from "./objects/silverTextBlock";
 import LinkedPage from "./objects/linkedPage";
 import NavShimmer from "./objects/navShimmer";
 import Accordion from "./objects/accordion";
+import Manuscript from "./objects/manuscript";
 import GeneralQuotes from "./objects/generalQuotes";
 import GeneralQuoteBlock from "./objects/generalQuoteBlock";
+import VideoBlock from "./objects/videoBlock";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -68,5 +70,7 @@ export default createSchema({
     Normal,
     Simple,
     StaticPage,
+    Manuscript,
+    VideoBlock,
   ]),
 });

@@ -4,14 +4,16 @@
     "name": "capawards"
   },
   "api": {
-    "projectId": "rv6r4a6q",
+    "projectId": "k2g82q6u",
     "dataset": "production"
   },
   "plugins": [
     "@sanity/base",
     "@sanity/default-layout",
     "@sanity/default-login",
-    "@sanity/desk-tool"
+    "@sanity/desk-tool",
+    "order-documents",
+    "mux-input"
   ],
   "env": {
     "development": {
