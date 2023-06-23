@@ -49,6 +49,13 @@ export default {
       of: [{ type: "videoBlock" }],
     },
   ],
+  orderings: [
+    {
+      title: "Release Date",
+      name: "releaseDate",
+      by: [{ field: "date", direction: "desc" }],
+    },
+  ],
   preview: {
     select: {
       title: "title",
