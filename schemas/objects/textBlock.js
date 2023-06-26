@@ -18,6 +18,11 @@ export default {
       title: "Linked Page",
       type: "linkedPage",
     },
+    {
+      name: "sectionId",
+      type: "string",
+      title: "Section Id",
+    },
   ],
   preview: {
     select: {

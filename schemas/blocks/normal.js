@@ -37,6 +37,11 @@ export default {
                   }),
               },
               {
+                name: "scrollLink",
+                type: "string",
+                title: "Scroll Link",
+              },
+              {
                 name: "internalLink",
                 type: "reference",
                 to: documentTypes,
