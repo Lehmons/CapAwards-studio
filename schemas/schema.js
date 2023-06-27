@@ -17,7 +17,6 @@ import Home from "./documents/home";
 import General from "./documents/general";
 import Faq from "./documents/faq";
 import News from "./documents/news";
-import StaticPage from "./documents/staticPage";
 
 //objects
 import ImageBlock from "./objects/imageBlock";
@@ -69,7 +68,6 @@ export default createSchema({
     HeadingOneTwoThreeNormalSmall,
     Normal,
     Simple,
-    StaticPage,
     Manuscript,
     VideoBlock,
   ]),
