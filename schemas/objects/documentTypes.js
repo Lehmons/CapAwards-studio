@@ -1,6 +1,1 @@
-export default [
-  { type: "page" },
-  { type: "faq" },
-  { type: "news" },
-  { type: "staticPage" },
-];
+export default [{ type: "page" }, { type: "faq" }, { type: "news" }];
