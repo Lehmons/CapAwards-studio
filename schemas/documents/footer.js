@@ -29,6 +29,16 @@ export default {
       ],
     },
     {
+      type: "array",
+      name: "pageLinks",
+      title: "Page Links",
+      of: [
+        {
+          type: "linkedPage",
+        },
+      ],
+    },
+    {
       type: "string",
       name: "companyNumber",
       title: "Company Number",

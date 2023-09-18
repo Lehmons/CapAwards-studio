@@ -16,7 +16,15 @@ export default {
         source: "title",
         maxLength: 200, // will be ignored if slugify is set
         slugify: (input) =>
-          `/news/${input.toLowerCase().replace(/\s+/g, "-").slice(0, 200)}`,
+          `/news/${input
+            .toLowerCase()
+            //Remove spaces
+            .replace(/\s+/g, "-")
+            //Remove double --
+            // .replace(/[--]/g)
+            //Remove special characters
+            .replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, "")
+            .slice(0, 200)}`,
       },
     },
     {
