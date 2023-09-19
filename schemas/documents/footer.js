@@ -13,11 +13,11 @@ export default {
         },
       ],
     },
-    {
-      title: "Logo",
-      name: "logo",
-      type: "imageBlock",
-    },
+    // {
+    //   title: "Logo",
+    //   name: "logo",
+    //   type: "imageBlock",
+    // },
     {
       type: "array",
       name: "followUsLinks",
