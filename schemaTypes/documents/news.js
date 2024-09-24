@@ -48,6 +48,12 @@ export default {
       type: 'array',
       of: [{type: 'imageBlock'}],
     },
+    {
+      name: 'videoBlock',
+      title: 'Video Block',
+      type: 'videoBlock',
+    },
+
     // {
     //   title: "Manuscript",
     //   name: "manuscript",
