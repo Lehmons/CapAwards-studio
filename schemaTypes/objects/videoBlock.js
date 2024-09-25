@@ -25,5 +25,3 @@ export default {
     },
   },
 }
-
-//This is to help a push
