@@ -11,6 +11,7 @@ import Home from './documents/home'
 import General from './documents/general'
 import Faq from './documents/faq'
 import News from './documents/news'
+import Routes from './documents/routes'
 
 //objects
 import ImageBlock from './objects/imageBlock'
@@ -51,6 +52,7 @@ export const schemaTypes = [
   TextBlock,
   QuoteBlock,
   Quotes,
+  Routes,
   BlueTextBlock,
   SilverTextBlock,
   LinkedPage,

@@ -1,1 +1,1 @@
-export default [{ type: "page" }, { type: "faq" }, { type: "news" }];
+export default [{type: 'page'}, {type: 'routes'}, {type: 'faq'}, {type: 'news'}]

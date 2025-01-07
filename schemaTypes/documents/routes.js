@@ -1,7 +1,7 @@
 export default {
+  name: 'routes',
+  title: 'Routes',
   type: 'document',
-  name: 'home',
-  title: 'Home',
   fields: [
     {
       title: 'Title',
@@ -26,20 +26,6 @@ export default {
             .slice(0, 200)}`,
       },
     },
-    {
-      title: 'Blocks',
-      name: 'blocks',
-      type: 'array',
-      of: [
-        {type: 'imageBlock'},
-        {type: 'textBlock'},
-        {type: 'blueTextBlock'},
-        {type: 'silverTextBlock'},
-        {type: 'imageTextBlock'},
-        {type: 'imageTextBlockBlue'},
-        {type: 'quotes'},
-      ],
-    },
   ],
   preview: {
     select: {
@@ -47,7 +33,7 @@ export default {
     },
     prepare({title}) {
       return {
-        title: title ? title : 'No title defined',
+        title,
       }
     },
   },
