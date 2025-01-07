@@ -12,9 +12,9 @@ export default {
       },
       fields: [
         {
-          title: 'Alt',
           name: 'alt',
           type: 'string',
+          title: 'Alt',
           description: 'Ensure alt text is filled in for accessibility',
           options: {
             isHighlighted: true, // <-- make this field easily accessible
