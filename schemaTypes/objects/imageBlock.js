@@ -17,7 +17,7 @@ export default {
           title: 'Alt',
           description: 'Ensure alt text is filled in for accessibility',
           options: {
-            isHighlighted: true, // <-- make this field easily accessible
+            isHighlighted: true,
           },
         },
       ],
